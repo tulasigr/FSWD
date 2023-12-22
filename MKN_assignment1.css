@@ -1,0 +1,165 @@
+header {
+  background-color: #f68f35;
+  border-bottom: 5px solid #000000c6;
+  padding: 10px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 20px;
+  font-weight: bold
+}
+h2{
+  color: #000;
+  font-size: 30px; 
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+
+main {
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  background-color: #fff;
+  color:#000000;
+}
+
+
+#Home p {
+  font-size: 16px; 
+  line-height: 1.5; 
+  margin-bottom: 20px; 
+}
+
+#Home strong {
+  font-weight: bold; 
+}
+
+#Home em {
+  font-style: italic; 
+}
+
+#Home a {
+  color: #0c1992; 
+  text-decoration: underline; 
+}
+
+#Home a:hover {
+  color: #ce18fca4; 
+}
+#Home img {
+  display: block;
+  width: 50%;
+  height: 50%;
+  object-fit:cover;
+  margin: 0 auto;
+}
+
+
+
+#Gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+
+#Gallery img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+#Review {
+  margin: 20px 0;
+  padding: 10px;
+ 
+}
+
+#Review iframe {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+
+#Schedule {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 14px; 
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+#Contact\ us {
+  margin: 50px auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+#Contact\ us p {
+  font-size: 16px;
+  line-height: 1.
+}
